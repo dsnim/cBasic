@@ -1,0 +1,9 @@
+/node_modules/
+.vscode/
+.idea/
+/dist/
+/publish/
+*.iml
+.DS_Store
+web.config
+*.map
