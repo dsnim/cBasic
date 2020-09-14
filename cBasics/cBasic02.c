@@ -10,8 +10,8 @@ int main() {
 
 
 int v1 = 10;
-printf("v1 : %d\\n", v1);
-printf("v1 주소 : %p\\n", &v1);
+printf("v1 : %d\n", v1);
+printf("v1 주소 : %p\n", &v1);
 
 /*
 연산식에서의 형변환
@@ -69,28 +69,28 @@ ASCII 코드
 */
 
 char ch = 'A';
-printf("ch : %c, %d\\n", ch, ch);
+printf("ch : %c, %d\n", ch, ch);
 
 int b = 2;
 
 int result = ch + b;
-printf("result : %d,%c\\n", result, result);
+printf("result : %d,%c\n", result, result);
 
 char ch2 = 'a';
-printf("ch2 : %d\\n", ch2);
-printf("ch + 32 : %c\\n", ch + 32);
+printf("ch2 : %d\n", ch2);
+printf("ch + 32 : %c\n", ch + 32);
 
 int data = 123;
-printf("%d\\n", data);
-printf("%5d|\\n", data); //서식지정자앞에 숫자를 사용하면 그숫자만큼 공간을 확보하여 출력함
-printf("%-5d|\\n", data); //+값이면 오른쪽, -값이면 왼쪽부터 채움**
+printf("%d\n", data);
+printf("%5d|\n", data); //서식지정자앞에 숫자를 사용하면 그숫자만큼 공간을 확보하여 출력함
+printf("%-5d|\n", data); //+값이면 오른쪽, -값이면 왼쪽부터 채움**
 
-printf("\\n");
+printf("\n");
 
 double data2 = 1.12;
-printf("%f\\n", data2);
-printf("%.2f\\n", data2);
-printf("%5.2f\\n", data2);
+printf("%f\n", data2);
+printf("%.2f\n", data2);
+printf("%5.2f\n", data2);
 // 실수 데이터 출력시 서식지정자 안에 '.숫자' 를 작성하면,
 // 숫자까지의 소수점 자리를 출력함
 
